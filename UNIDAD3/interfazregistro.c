@@ -94,7 +94,7 @@ int main() {
         // Encabezado de la tabla
         setColor("\033[1;36m"); // Color cian para los encabezados
         printf("| %-3s | %-30s | %-5s | %-15s |\n", "#", "Nombre", "Edad", "Pais");
-        printf("|-----|-------------------------------|-----------|---------------|\n");
+        printf("|-----|--------------------------------|-----------|---------------|\n");
         setColor("\033[0m"); // Reset color
 
         int contador = 0;
